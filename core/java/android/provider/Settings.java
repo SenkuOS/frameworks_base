@@ -4837,6 +4837,12 @@ public final class Settings {
         /**
          * Action to perform when the home key is double-tapped.
          * (Default can be configured via config_doubleTapOnHomeBehavior)
+         * Volume rocker wake
+         * @hide
+         */
+        public static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
+
+        /**
          * @hide
          */
         public static final String KEY_HOME_DOUBLE_TAP_ACTION = "key_home_double_tap_action";
@@ -5101,6 +5107,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(CAMERA_LAUNCH);
             PRIVATE_SETTINGS.add(TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK);
             PRIVATE_SETTINGS.add(HIGH_TOUCH_SENSITIVITY_ENABLE);
+            PRIVATE_SETTINGS.add(VOLUME_ROCKER_WAKE);
         }
 
         /**
