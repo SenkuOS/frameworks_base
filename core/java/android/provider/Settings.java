@@ -4835,8 +4835,6 @@ public final class Settings {
         public static final String KEY_HOME_LONG_PRESS_ACTION = "key_home_long_press_action";
 
         /**
-         * Action to perform when the home key is double-tapped.
-         * (Default can be configured via config_doubleTapOnHomeBehavior)
          * Volume rocker wake
          * @hide
          */
@@ -4852,6 +4850,7 @@ public final class Settings {
          * @hide
          */
         public static final String KEY_MENU_ACTION = "key_menu_action";
+        public static final String VOLUME_BUTTON_MUSIC_CONTROL = "volume_button_music_control";
 
         /**
          * Action to perform when the menu key is long-pressed.
@@ -5212,6 +5211,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(OMNI_QS_LAYOUT_COLUMNS);
             PRIVATE_SETTINGS.add(OMNI_QS_TILE_TITLE_VISIBILITY);
             PRIVATE_SETTINGS.add(OMNI_QS_LAYOUT_ROWS);
+            PRIVATE_SETTINGS.add(VOLUME_BUTTON_MUSIC_CONTROL);
         }
         /**
          * These entries are considered common between the personal and the managed profile,
