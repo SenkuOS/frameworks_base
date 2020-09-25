@@ -4863,7 +4863,9 @@ public final class Settings {
          * Action to perform when the assistant (search) key is pressed. (Default is 3)
          * @hide
          */
+
         public static final String KEY_ASSIST_ACTION = "key_assist_action";
+        public static final String LOCKSCREEN_MEDIA_ART = "lockscreen_media_art";
 
         /**
          * Action to perform when the assistant (search) key is long-pressed. (Default is 4)
@@ -5229,6 +5231,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(OMNI_QS_TILE_TITLE_VISIBILITY);
             PRIVATE_SETTINGS.add(OMNI_QS_LAYOUT_ROWS);
             PRIVATE_SETTINGS.add(VOLUME_BUTTON_MUSIC_CONTROL);
+            PRIVATE_SETTINGS.add(LOCKSCREEN_MEDIA_ART);
         }
         /**
          * These entries are considered common between the personal and the managed profile,
