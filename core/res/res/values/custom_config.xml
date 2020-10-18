@@ -208,4 +208,11 @@
     <!-- Should we filter any display modes which are unmapped? -->
     <bool name="config_filterDisplayModes">false</bool>
 
+    <string-array translatable="false" name="custom_config_globalActionsList">
+        <item>emergency</item>
+        <item>lockdown</item>
+        <item>power</item>
+        <item>restart</item>
+        <item>screenshot</item> <!--2 buttons nav-->
+    </string-array>
 </resources>
