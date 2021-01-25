@@ -85,5 +85,6 @@ public class SystemSettings {
         Settings.System.ALARM_ALERT,
         Settings.System.NOTIFICATION_LIGHT_PULSE,
         Settings.System.VOLUME_ROCKER_WAKE,
+        Settings.System.QS_MEDIA_PLAYER,
     };
 }
